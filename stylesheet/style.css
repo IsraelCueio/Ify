@@ -1,14 +1,77 @@
-@import url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+@import url('https://fonts.googleapis.com/earlyaccess/opensanshebrew.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
 body{
   font-family: 'Open Sans Hebrew';
 }
 
-.underline{
+h3{
+  font-family: 'Roboto', sans-serif;
+
+}
+
+nav .underline{
   padding: 2px 30px;
   background-color: white;
 }
 
 nav a{
   color: white!important;
+  font-size: 20px!important
+}
+
+nav a.active{
+  font-weight: bold;
+}
+
+nav a:not(.active):hover{
+  color: #00B5E2!important;
+  font-size: 20px!important
+}
+
+#banner-section{
+  background-image: url("../images/banner.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-position: 0% 20%;
+  height: 100vh;
+  margin-top: -122.97px;
+  overflow: hidden;
+  
+}
+
+#banner-section h3{
+  font-size: 100px;
+  text-shadow: 5px 5px 0px #00B5E2
+}
+
+#banner-section p{
+  font-size: 40px;
+  line-height: 40px;
+  margin-top: -10px;
+}
+
+#banner-section button{
+  border-radius: 200px;
+  font-size: 28px;
+  color:white;
+  padding: 5px 30px;
+  background-color: #00B5E2;
+}
+
+#banner-section button:hover{
+  border-radius: 200px;
+  font-size: 28px;
+  color:white;
+  padding: 5px 30px;
+  background-color: #20d2ff;
+}
+
+#d-line{
+  margin-top: -40vh;
+}
+
+#about-section{
+  background-color: white;
+  height: 100vh;
 }
