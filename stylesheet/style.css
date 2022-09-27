@@ -10,8 +10,21 @@ h3{
 
 }
 
+nav .navbar-toggler, .navbar-toggler:focus{
+  border-style: none!important;
+}
+
+nav .navbar-toggler:focus{
+  box-shadow: 0 0 30px rgba(200,200,225,0.8)!important
+}
+
+nav .navbar-toggler-icon{
+  background-image: url("../images/menu-bar.png");
+}
+
 nav .underline{
-  padding: 2px 30px;
+  width: 70px;
+  height: 2px;
   background-color: white;
 }
 
@@ -29,15 +42,26 @@ nav a:not(.active):hover{
   font-size: 20px!important
 }
 
+nav:has(.show){
+  transition: 0.3s;
+  background-color: white;
+
+}
+
+nav:has(.collapsing){
+  transition: 0.3s;
+  background-color: white;
+
+}
+
 #banner-section{
   background-image: url("../images/banner.jpg");
   background-repeat: no-repeat, repeat;
   background-size: cover;
-  background-position: 0% 20%;
+  background-position: 30% 25%;
   height: 100vh;
   margin-top: -122.97px;
   overflow: hidden;
-  
 }
 
 #banner-section h3{
@@ -75,3 +99,37 @@ nav a:not(.active):hover{
   background-color: white;
   height: 100vh;
 }
+
+/* xl or smaller screens */
+
+@media (max-width: 1200px) {
+  #banner-section{
+    background-position: 75% 25%!important;
+  }
+}
+
+/* lg or smaller screens */
+
+@media (max-width: 992px) {
+  #banner-section{
+    background-position: 25% -10vh!important;
+  }
+
+  #d-line{
+    display: none
+  }
+
+  #banner-section h3{
+    margin-top:15vh
+  }
+
+  #banner-section button{
+    margin-top: -15px!important;
+  }
+
+  nav a.active{
+    text-align: left!important;
+    margin-left: 20px
+  }
+}
+
