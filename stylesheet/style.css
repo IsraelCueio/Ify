@@ -45,13 +45,11 @@ nav a:not(.active):hover{
 nav:has(.show){
   transition: 0.3s;
   background-color: white;
-
 }
 
 nav:has(.collapsing){
   transition: 0.3s;
   background-color: white;
-
 }
 
 #banner-section{
@@ -60,7 +58,7 @@ nav:has(.collapsing){
   background-size: cover;
   background-position: 30% 25%;
   height: 100vh;
-  margin-top: -122.97px;
+  margin-top: -145px;
   overflow: hidden;
 }
 
@@ -119,8 +117,23 @@ nav:has(.collapsing){
     display: none
   }
 
+  #banner-section .col{
+    padding: 0px 5vw!important
+  }
+
   #banner-section h3{
-    margin-top:15vh
+    margin-top:15vh;
+    font-size: 15vw
+  }
+
+  #banner-section p{
+    font-size: 8vw;
+    line-height: 8vw;
+  }
+
+  #banner-section button{
+    font-size: 7vw;
+    line-height: 9vw;
   }
 
   #banner-section button{
@@ -131,5 +144,25 @@ nav:has(.collapsing){
     text-align: left!important;
     margin-left: 20px
   }
+
+  nav a{
+    color: black!important;
+  }
+
+  .navbar-brand.expanded{
+    filter: brightness(0);
+    transition-delay: 0.3s;
+    transition: 0.3s;
+  }
+
+  .navbar-brand:not(.expanded){
+    transition-delay: 0.3s!important;
+    transition: 0.3s;
+  } 
 }
 
+.navbar-brand img{
+  width: 50vw!important;
+  max-width: 250px;
+  min-width: 180px;
+}
