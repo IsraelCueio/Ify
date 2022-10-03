@@ -176,13 +176,30 @@ nav:has(.collapsing){
     margin-top: 30vh;
     font-size: 17vw
   }
+  
   #banner-section p{
     margin-top: 3vw;
     font-size: 6vw
+  }
+
+  #banner-section button{
+    width: 90vw;
+    font-size: 8vw;
+    line-height: 9vw;
   }
 }
 .navbar-brand img{
   width: 50vw!important;
   max-width: 250px;
   min-width: 180px;
+}
+
+.expanded + .navbar-toggler{
+  filter: brightness(0);
+  transition: 0.3s;
+}
+
+.navbar-brand:not(.expanded) + .navbar-toggler{
+  transition: 0.3s;
+  transition-delay: 0.3s!important;
 }
