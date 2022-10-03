@@ -100,17 +100,19 @@ nav:has(.collapsing){
 
 /* xl or smaller screens */
 
-@media (max-width: 1200px) {
+@media (max-width: 1201px) {
   #banner-section{
-    background-position: 75% 25%!important;
+    background-position: 50% 25%!important;
   }
 }
 
 /* lg or smaller screens */
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   #banner-section{
-    background-position: 25% -10vh!important;
+    background-position: 25% 0vh!important;
+    min-height: 600px;
+    height: 90vh;
   }
 
   #d-line{
@@ -122,18 +124,18 @@ nav:has(.collapsing){
   }
 
   #banner-section h3{
-    margin-top:15vh;
-    font-size: 15vw
+    margin-top: 30%;;
+    font-size: 10vw
   }
 
   #banner-section p{
-    font-size: 8vw;
-    line-height: 8vw;
+    font-size: 4vw;
+    line-height: 4vw;
   }
 
   #banner-section button{
-    font-size: 7vw;
-    line-height: 9vw;
+    font-size: 4vw;
+    line-height: 6vw;
   }
 
   #banner-section button{
@@ -161,6 +163,24 @@ nav:has(.collapsing){
   } 
 }
 
+/* md or smaller screens */
+
+@media (max-width: 769px) {
+  #banner-section{
+    background-position: 25% 0vh!important;
+    min-height: 600px;
+    height: 80vh;
+  }
+
+  #banner-section h3{
+    margin-top: 30vh;
+    font-size: 17vw
+  }
+  #banner-section p{
+    margin-top: 3vw;
+    font-size: 6vw
+  }
+}
 .navbar-brand img{
   width: 50vw!important;
   max-width: 250px;
