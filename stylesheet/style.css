@@ -233,6 +233,7 @@ nav:has(.collapsing){
 #values-section h3{
   font-size: 60px;
   color: #02206A;
+  margin-bottom: 20px
 }
 
 #about-section h3{
@@ -243,6 +244,7 @@ nav:has(.collapsing){
 #values-section p{
   font-size: 20px;
   color: #02206A;
+  padding-bottom: 100px;
  }
 
  #about-section p{
@@ -254,4 +256,46 @@ nav:has(.collapsing){
  .carousel-item{
   padding-left: 10%;
   padding-right: 10%;
+  margin-bottom: 80px
  }
+
+ .carousel-indicators button{
+  background-color: #02206A !important;
+  width: 10px!important;
+  height: 10px!important;
+  border-radius:50%;
+ }
+
+ .carousel-indicators button.active{
+  background-color: #02206A !important;
+  width: 15px!important;
+  height: 15px!important;
+  border-radius:50%;
+  margin-top: -2.5px
+ }
+
+ .carousel-control-next{
+  transform: rotate(180deg);
+ }
+
+ @keyframes example {
+  0%   {top:-100px}
+  100% {top:0px}
+}
+
+ .sticky-top{
+  background: linear-gradient(180deg, rgba(32,52,102,0) 0%, rgba(255,255,255,0) 88%);
+  background-position-y: -150px!important;
+  transition: background 200ms;
+}
+
+ .sticky-top.scrolled {
+  background-position-y: 0px!important;
+  background-repeat: no-repeat!important;
+  background: linear-gradient(180deg, rgba(33,41,65,0.9094012605042017) 0%, rgba(61,71,99,0.665703781512605) 31%, rgba(255,255,255,0) 78%);
+  transition: background-position-y 300ms;
+}
+
+.sticky-top.scrolled .nav-link {
+  color:#555;
+}
