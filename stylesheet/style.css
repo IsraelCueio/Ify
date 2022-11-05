@@ -5,7 +5,7 @@ body{
   font-family: 'Open Sans Hebrew';
 }
 
-h3{
+h3,h4,button{
   font-family: 'Roboto', sans-serif;
 
 }
@@ -292,7 +292,7 @@ nav:has(.collapsing){
  .sticky-top.scrolled {
   background-position-y: 0px!important;
   background-repeat: no-repeat!important;
-  background: linear-gradient(180deg, rgba(33,41,65,0.9094012605042017) 0%, rgba(61,71,99,0.665703781512605) 31%, rgba(255,255,255,0) 78%);
+  background: linear-gradient(180deg, rgba(33,41,65,0.9094012605042017) 0%, rgba(61,71,99,0.665703781512605) 31%, rgba(255,255,255,0) 90%);
   transition: background-position-y 300ms;
 }
 
@@ -320,4 +320,58 @@ nav:has(.collapsing){
   font-size: 60px;
   color: #02206A;
   margin-bottom: 20px
+}
+
+#services-section h4{
+  font-size: 35px;
+  color: #02206A;
+  margin-bottom: -10px;
+}
+
+.separator-left{
+  background-color: #02206A;
+  height: 5px;
+  width: 150px;
+  margin-left: auto;
+  border-radius: 20px;
+  margin-right: -30px;
+}
+
+.separator-right{
+  background-color: #02206A;
+  height: 5px;
+  width: 150px;
+  margin-right: auto;
+  border-radius: 20px;
+  margin-left: -30px;  
+}
+
+.service-card{
+  background-color: white;
+  width: 300px;
+  height: 350px;
+  border-radius:5%;
+  margin: 50px auto 50px auto;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+}
+
+.services-btn{
+  background: linear-gradient(180deg, #02206A 0%, #3151A0 78%);
+  border-radius: 40px;
+  border-style: none;
+  color:white;
+  padding: 10px 20px 10px 35px;
+  font-size: 30px;
+  transition: linear 200ms;
+}
+
+.services-btn:hover{
+  margin: -5px 0px 5px 0px;
+  transition: linear 200ms;
+  filter: brightness(1.2);
+}
+
+.button-icon{
+  filter: brightness(100);
+  transform: rotate(180deg);
 }
