@@ -390,6 +390,10 @@ nav:has(.collapsing){
   height: 100%;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-back{
@@ -398,9 +402,47 @@ nav:has(.collapsing){
   border-radius:5%;
 }
 
+.service-card h5{
+  font-size: 32px;
+}
+
 .card-front h5{
   color: #00B5E2;
-  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+.card-back h5,.card-back p{
+  color: #ffffff!important;
+}
+
+.card-back h5{
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.card-back p{
+  padding-bottom: 0px!important;
+  margin-bottom: auto;
+}
+
+.service-card button{
+  background: unset;
+  background-color: white;
+  color: #02206A;
+  margin-bottom: 30px;
+  font-size: 20px;
+  padding: 8px 10px 8px 20px
+}
+
+.service-card button:hover{
+  margin-bottom: 35px;
+  margin-top: -5px;
+}
+
+.service-card .button-icon{
+  filter: unset;
+  transform: rotate(180deg);
+  width: 25px;
 }
 
 .icon-back{
@@ -409,5 +451,7 @@ nav:has(.collapsing){
   background-color: #00B5E2;
   border-radius: 50%;
   box-shadow: 0px 0px 15px inset rgba(0, 0, 0, 0.2);
-  padding: 25px
+  padding: 25px;
+  margin-bottom: auto;
+  margin-top: 50px;
 }
