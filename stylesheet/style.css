@@ -400,6 +400,8 @@ nav:has(.collapsing){
   transform: rotateY(180deg);
   background: linear-gradient(180deg, #02206A 0%, #3151A0 78%);
   border-radius:5%;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .service-card h5{
