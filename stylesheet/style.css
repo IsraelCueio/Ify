@@ -475,7 +475,25 @@ nav:has(.collapsing){
  #instagram-section h3{
   font-size: 60px;
   color: #02206A;
-  margin-bottom: 20px
+  margin-bottom: 20px;
+}
+
+#footer p{
+  font-size: 22px;
+  color: white
+ }
+
+#footer strong{
+  font-size: 30px;
+  color: white
+}
+
+ #footer h3{
+  font-size: 60px;
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 30px
+
 }
 
 #instagram-section h4{
@@ -570,3 +588,31 @@ filter:brightness(1.7) saturate(1.8);
   filter:grayscale(1);
   width: 250px;
 }
+
+#hotlinks-section a{
+  color:#02206A;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#hotlinks-section{
+  margin-top: 100px!important
+}
+
+#hotlinks-section .col{
+  transition: ease 200ms;
+  margin-top: 15px
+}
+
+#hotlinks-section .col:hover{
+  margin-top: 10px!important;
+  padding-bottom: 5px!important;
+  transition: ease 200ms;
+}
+
+#footer{
+  background-image: url(../images/Footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
