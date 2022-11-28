@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/earlyaccess/opensanshebrew.css');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+@import 'https://fonts.googleapis.com/css?family=Lato:400';
 
 body{
   font-family: 'Open Sans Hebrew';
@@ -616,3 +618,366 @@ filter:brightness(1.7) saturate(1.8);
   background-size: cover;
 }
 
+.chart--container {
+  min-height: 530px;
+  width: 100%;
+  height: 100%;
+}
+
+.controls {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.zc-ref {
+  display: none;
+}
+
+.range input{
+	-webkit-appearance:none;
+	width:400px;
+	height:4px;
+	border-radius:5px;
+	background-color: #02206A;
+	outline:none;
+}
+.range input::-webkit-slider-thumb{
+	-webkit-appearance:none;
+	width:20px;
+	height:20px;
+	border-radius:50%;
+	background-color:#062257;
+}
+
+.rangeslider{
+  display: flex!important;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#internet{
+  color: #02206A;
+  font-family: 'Open Sans Hebrew';
+  font-weight: 200;
+  font-size: 50px
+}
+
+#output{
+  font-family: 'Roboto', sans-serif;
+  font-size: 90px
+}
+
+#cost{
+  font-family: 'Open Sans Hebrew';
+  font-size: 50px;
+  font-weight: 500;
+}
+
+#myChart-license-text{
+  display: none!important
+}
+
+
+
+#banner2-section{
+  background-image: url("../images/banner2.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-position: 30% 0%;
+  height: 100vh;
+  margin-top: -145px;
+  overflow: hidden;
+}
+
+#banner2-section h3{
+  font-size: 100px;
+  text-shadow: 5px 5px 0px #00B5E2
+}
+
+#banner2-section p{
+  font-size: 40px;
+  line-height: 40px;
+  margin-top: -10px;
+}
+
+#banner2-section button{
+  border-radius: 200px;
+  font-size: 28px;
+  color:white;
+  padding: 5px 30px;
+  background-color: #00B5E2;
+}
+
+#banner2-section button:hover{
+  border-radius: 200px;
+  font-size: 28px;
+  color:white;
+  padding: 5px 30px;
+  background-color: #20d2ff;
+}
+
+#banner2-section #d-line{
+  margin-top: -90vh;
+  margin-left: 80vw;
+  transform: rotate(-120deg);
+  filter: brightness(100);
+}
+
+.service-section p{
+  padding-right: 20%;
+  font-size: 20px;
+  color: #02206A;
+ }
+
+ .service-section h3{
+  font-size: 60px;
+  color: #02206A;
+}
+
+.service-section .rounded-circle2,.service-section .rounded-circle{
+  position: relative;
+  object-fit: cover;
+  margin-top: 50px;
+  margin-left: 10%;
+  width: 450px;
+  height: 450px;
+  z-index: 10
+}
+
+.service-section .circle.right{
+  position: absolute!important;
+  top: 0px; 
+  left: 80%;
+  width: 450px;
+  height: 450px;
+}
+
+.service-section{
+  position: relative;
+  background-color: white;
+  overflow: hidden;
+}
+
+.service-section .rounded-circle2{
+  object-fit: cover;
+  object-position: 0% 0%;
+  border-radius: 100%;
+}
+
+#service2-section h3, #service2-section p{
+  margin-left: 150px;
+  padding-right: 0px!important
+}
+
+#service2-section button{
+  margin-left: 150px;
+}
+
+#service1-section h3, #service1-section p{
+  margin-left: 150px;
+  padding-right: 0px!important
+}
+
+#service1-section button{
+  margin-left: 150px;
+}
+
+#service4-section h3, #service4-section p{
+  margin-left: 150px;
+  padding-right: 0px!important
+}
+
+#service4-section button{
+  margin-left: 150px;
+}
+
+.servicespage.services-btn{
+  background: linear-gradient(180deg, #02206A 0%, #3151A0 78%);
+  border-radius: 40px;
+  border-style: none;
+  color:white;
+  padding: 10px 20px 10px 35px;
+  font-size: 30px;
+  transition: linear 200ms;
+}
+
+#simulate-section p{
+  padding-right: 20%;
+  font-size: 20px;
+  color: #02206A!important;
+ }
+
+#simulate-section h3{
+  font-size: 60px;
+  color: #02206A;
+}
+
+#simulate-section .simulation-title{
+  margin-bottom: -120px;
+}
+
+#simulate-section #myChart{
+  margin-bottom: -100px
+}
+
+#simulate-section{
+  margin-bottom: 100px;
+}
+
+.d-circle{
+  position:absolute;
+  width: 450px;
+  top: 20px;
+  margin-left: -50px
+}
+
+#banner3-section{
+  background-image: url("../images/banner3.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-position: 30% 25%;
+  height: 100vh;
+  margin-top: -145px;
+  overflow: hidden;
+}
+
+#banner3-section h3{
+  font-size: 100px;
+  text-shadow: 5px 5px 0px #00B5E2
+}
+
+#banner3-section p{
+  font-size: 40px;
+  line-height: 40px;
+  margin-top: -10px;
+}
+
+#banner3-section button{
+  border-radius: 200px;
+  font-size: 28px;
+  color:white;
+  padding: 5px 30px;
+  background-color: #00B5E2;
+}
+
+#banner3-section button:hover{
+  border-radius: 200px;
+  font-size: 28px;
+  color:white;
+  padding: 5px 30px;
+  background-color: #20d2ff;
+}
+
+#banner3-section #d-line{
+  margin-top: -50vh;
+  margin-left: -10vw;
+  filter: brightness(100);
+}
+
+.service-section .circle.right.b2b{
+  position: absolute!important;
+  top: 50px; 
+  left: 80%;
+  width: 450px;
+  height: 450px;
+}
+
+#service2-section.b2b .rounded-circle{
+  object-fit: cover;
+  object-position: 0% 100%;
+  border-radius: 100%;
+}
+
+#banner3-section{
+  background-image: url("../images/banner3.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-position: 30% 25%;
+  height: 100vh;
+  margin-top: -145px;
+  overflow: hidden;
+}
+
+#banner3-section h3{
+  font-size: 100px;
+  text-shadow: 5px 5px 0px #00B5E2
+}
+
+#banner3-section p{
+  font-size: 40px;
+  line-height: 40px;
+  margin-top: -10px;
+}
+
+#banner3-section button{
+  border-radius: 200px;
+  font-size: 28px;
+  color:white;
+  padding: 5px 30px;
+  background-color: #00B5E2;
+}
+
+#banner3-section button:hover{
+  border-radius: 200px;
+  font-size: 28px;
+  color:white;
+  padding: 5px 30px;
+  background-color: #20d2ff;
+}
+
+#banner3-section #d-line{
+  margin-top: -50vh;
+  margin-left: -10vw;
+  filter: brightness(100);
+}
+
+
+
+
+
+
+
+
+
+#banner4-section{
+  background-image: url("../images/banner4.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-position: 30% 25%;
+  height: 100vh;
+  margin-top: -145px;
+  overflow: hidden;
+}
+
+#banner4-section h3{
+  font-size: 100px;
+  text-shadow: 5px 5px 0px #00B5E2
+}
+
+#banner4-section p{
+  font-size: 40px;
+  line-height: 40px;
+  margin-top: -10px;
+}
+
+#banner4-section button{
+  border-radius: 200px;
+  font-size: 28px;
+  color:white;
+  padding: 5px 30px;
+  background-color: #00B5E2;
+}
+
+#banner4-section button:hover{
+  border-radius: 200px;
+  font-size: 28px;
+  color:white;
+  padding: 5px 30px;
+  background-color: #20d2ff;
+}
+
+#banner4-section #d-line{
+  margin-top: -50vh;
+  margin-left: -10vw;
+  filter: brightness(100);
+}
