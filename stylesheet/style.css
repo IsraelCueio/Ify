@@ -474,6 +474,11 @@ nav:has(.collapsing){
   color: #02206A
  }
 
+ #questions-section p, #questions-section ul{
+  font-size: 18px;
+  color: #02206A
+ }
+
  #instagram-section h3{
   font-size: 60px;
   color: #02206A;
