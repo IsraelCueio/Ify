@@ -83,6 +83,23 @@ nav:has(.collapsing){
   background-color: #00B5E2;
 }
 
+#form-section button{
+  border-radius: 200px;
+  font-size: 28px;
+  color:white;
+  padding: 5px 30px;
+  background-color: #00B5E2;
+}
+
+#plans-section button{
+  border-radius: 200px;
+  font-size: 28px;
+  color:white;
+  padding: 5px 30px;
+  background-color: #00B5E2;
+  margin-bottom: 40px;
+}
+
 #banner-section button:hover{
   border-radius: 200px;
   font-size: 28px;
@@ -241,12 +258,31 @@ nav:has(.collapsing){
   margin-bottom: 20px
 }
 
+#plans-section h3, #plans-section h3{
+  font-size: 60px;
+  color: #02206A;
+  margin-bottom: 20px
+
+}
+
 #about-section h3{
   font-size: 60px;
   color: #02206A;
 }
 
-#values-section p, #next-section pq{
+#values-section p, #next-section p{
+  font-size: 20px;
+  color: #02206A;
+  padding-bottom: 100px;
+ }
+
+ #plans-section p, #plans-section p{
+  font-size: 20px;
+  color: #02206A;
+  padding-bottom: 100px;
+ }
+
+ #form-section p, #form-section p{
   font-size: 20px;
   color: #02206A;
   padding-bottom: 100px;
@@ -1025,3 +1061,25 @@ filter:brightness(1.7) saturate(1.8);
   font-size: 18px;
   color: #02206A
  }
+
+ .plan{
+  background-color: #ffffff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  margin: 0px 15px;
+  border-radius: 25px;
+  padding: 0px 0px
+ }
+
+ .plans{
+  margin: 0px 10vw
+ }
+
+ #plans-section h4, #plans-section h4{
+  font-size: 30px;
+  color: #ffffff;
+  padding-bottom: 20px;
+  padding-top: 40px;
+  background-color: #00B5E2;
+  border-radius: 25px 25px 0px 0px;
+  width: 100%!important
+}
